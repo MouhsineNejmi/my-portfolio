@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="shortcut icon"
+      href="images/favicon/portfolio.png"
+      type="image/x-icon"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>My Portfolio Project</title>
+  </head>
+  <body>
+    <div class="container">
+      <nav class="nav">
+        <ul class="list-items">
+          <li class="list-item">
+            <a
+              href="mailto:nejmimouhsine@gmail.com"
+              target="_blank"
+              class="list-link"
+            >
+              <span class="list-icon">
+                <box-icon name="envelope" color="#9a9a9a"></box-icon>
+              </span>
+              <span class="list-text"> Get in touch </span>
+            </a>
+          </li>
+        </ul>
+
+        <div class="links">
+          <p>
+            <a
+              href="https://www.linkedin.com/in/mouhsine-nejmi/"
+              target="_blank"
+              >Linkedin</a
+            >
+            &nbsp; &nbsp; /
+          </p>
+
+          <p>
+            <a href="https://github.com/MouhsineNejmi" target="_blank"
+              >Github</a
+            >
+          </p>
+        </div>
+      </nav>
+
+      <div class="divider">
+        <span class="divider-line"></span>
+      </div>
+
+      <section class="hero">
+        <div class="hero-img"></div>
+        <p>Hi, I'm Mouhsine Nejmi 👋</p>
+        <h1 class="title">
+          FullStack MERN Developer, I write code on both front-end and back-end.
+        </h1>
+      </section>
+    </div>
+
+    <section class="skills">
+      <img src="images/logos/JavaScript-logo.png" alt="Javascript" />
+      <img src="images/logos/Typescript-logo.png" alt="Typescript" />
+      <img src="images/logos/React-logo.png" alt="React" />
+      <img src="images/logos/nodejs-logo.png" alt="Node" />
+      <img src="images/logos/Expressjs-logo.png" alt="Expressjs" />
+      <img src="images/logos/MongoDB-Logo.png" alt="MongoDB" />
+    </section>
+
+    <div class="container">
+      <section class="abilities-section">
+        <h2 class="title">My abilities:</h2>
+        <div class="abilities">
+          <div class="ability">
+            <box-icon name="desktop" color="#9a9a9a"></box-icon>
+            <h3 class="title">Development & Design</h3>
+            <p>
+              Developing and designing front end web architecture, and translate
+              wireframes and PSD designs into functional web applications.
+            </p>
+          </div>
+
+          <div class="ability">
+            <box-icon name="sitemap" color="#9a9a9a"></box-icon>
+            <h3 class="title">Soft Skills</h3>
+            <p>
+              Work with development teams and managers to ideate software
+              solutions. Conduct and participate in project planning &
+              scheduling.
+            </p>
+          </div>
+
+          <div class="ability">
+            <box-icon name="math" color="#9a9a9a"></box-icon>
+            <h3 class="title">Problem Solving & Testing</h3>
+            <p>
+              Ability to create Unit and Integration tests to ensure the quality
+              of code. Strong problem-solving skills, and Strong analytical
+              thinking.
+            </p>
+          </div>
+
+          <div class="ability">
+            <box-icon name="palette" color="#9a9a9a"></box-icon>
+            <h3 class="title">Hard Skills</h3>
+            <p>
+              Knowledge of modern frameworks and design pattern. NodeJS,
+              ExpressJS on the back-end, and React.js, Typescript on the
+              front-end.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <section class="portfolio">
+        <h2 class="title">My Portfolio</h2>
+        <div class="project">
+          <div class="project-img">
+            <img src="images/ecommerce-app.png" alt="e-commerce app" />
+          </div>
+          <div class="project-info">
+            <span class="project-number">01</span>
+            <h3 class="title">e-commerce app</h3>
+            <p>
+              The e-commerce app is a store build using <b>Reactjs</b> to create
+              the front end of the application. <b>Redux</b> for state
+              management. <b>React router(v6)</b> o navigate between pages.
+              <b>Redux Persist</b> help you keep your data persisted in the
+              local storage even after refreshing the page.
+            </p>
+            <a
+              href="https://ecommerce-app-roan.vercel.app/"
+              target="_blank"
+              class="link"
+              >Preview</a
+            >
+          </div>
+        </div>
+
+        <div class="project row-reverse">
+          <div class="project-img">
+            <img src="images/image-uploader.gif" alt="Image uplaoder gif" />
+          </div>
+          <div class="project-info">
+            <span class="project-number">02</span>
+            <h3 class="title">image uploader app</h3>
+            <p>
+              A small FullStack MERN typescript app where you can upload your
+              images to amazon web services <b>(AWS S3)</b>. The back-end part
+              of the application I used <b>Multer</b> a node.js middleware
+              primarily used to upload files. <b>@aws-sdk/client-s3</b> AWS SDK
+              for Javascript S3 Client.
+              <b>@aws-sdk/s3-request-presigner</b> This package generate
+              presigned url from S3 client.
+            </p>
+            <br />
+            <p>
+              On the front-end part <b>Reactjs and Tailwindcss</b> to build the
+              app interface. <b>React Dropzone</b> simple React hook to create
+              drag'n'drop zone. And <b>Axios</b> to make http request for the
+              browser and nodejs.
+            </p>
+            <a
+              href="https://image-uploader-umber.vercel.app"
+              target="_blank"
+              class="link"
+              >Preview</a
+            >
+          </div>
+        </div>
+      </section>
+
+      <footer class="footer">
+        <div class="divider">
+          <span class="divider-line"></span>
+        </div>
+        <p>Made with ❤️ by Mouhsine Nejmi.</p>
+      </footer>
+    </div>
+
+    <script src="https://unpkg.com/boxicons@2.1.4/dist/boxicons.js"></script>
+  </body>
+</html>
