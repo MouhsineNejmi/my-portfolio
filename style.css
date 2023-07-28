@@ -98,8 +98,8 @@ a:hover {
 
 .hero-img {
   background-color: var(--grey-color);
-  height: 100px;
-  width: 100px;
+  height: 160px;
+  width: 160px;
   border-radius: 50%;
   margin-bottom: 20px;
 }
@@ -159,7 +159,7 @@ a:hover {
   padding-top: 50px;
   display: grid;
   grid-template-columns: repeat(4, 1fr);
-  grid-template-rows: 350px;
+  grid-template-rows: 400px;
   gap: 20px;
 }
 
@@ -168,9 +168,24 @@ a:hover {
   border: 1px solid var(--grey-color);
   display: flex;
   flex-direction: column;
-  justify-content: flex-end;
+  justify-content: center;
   padding: 20px;
-  padding-bottom: 50px;
+}
+
+.ability-img {
+  height: 150px;
+  margin-bottom: 20px;
+}
+
+.ability-img img {
+  background: url("images/development.avif");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  filter: grayscale(100%);
+  opacity: 0.7;
+  height: 100%;
+  width: 100%;
 }
 
 .ability h3 {
@@ -199,6 +214,10 @@ a:hover {
   display: flex;
   gap: 40px;
   padding-bottom: 30px;
+}
+
+.project:nth-child(even) .project-info {
+  margin-left: 40px;
 }
 
 .project-img {
@@ -350,12 +369,16 @@ a:hover {
 
   .abilities {
     grid-template-columns: 1fr;
-    grid-template-rows: repeat(4, 250px);
+    grid-template-rows: repeat(4, 450px);
   }
 
   .ability {
     justify-content: center;
     padding: 0 20px;
+  }
+
+  .ability-img {
+    height: 200px;
   }
 
   .portfolio {
