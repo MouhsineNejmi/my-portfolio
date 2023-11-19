@@ -18,8 +18,11 @@ body {
   font-family: 'Outfit', sans-serif;
   background-color: #161616;
   background-image: url('images/hero_bg.svg');
-  background-attachment: fixed;
   color: var(--white-color);
+}
+
+body::before {
+  position: fixed;
 }
 
 ul {
