@@ -76,7 +76,7 @@ export const projects = [
     id: 1,
     title: 'Masterclass Africa',
     des: "Africa's version of Masterclass, built with a microservices architecture. Masterclass Africa empowers users to learn from the best in their fields while allowing experts to share their knowledge and create courses.",
-    img: '/masterclass-africa.jpg',
+    img: '/masterclass-africa.png',
     iconLists: [
       '/next.svg',
       '/tail.svg',
