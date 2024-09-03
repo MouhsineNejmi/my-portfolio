@@ -73,9 +73,9 @@ export const gridItems = [
 export const projects = [
   {
     id: 1,
-    title: 'Flex Stay - Airbnb Clone',
-    des: 'An Airbnb clone built using a microservices architecture, Flex Stay enables users to search, book, and manage property rentals with ease.',
-    img: '/airbnb-clone.webp',
+    title: 'Masterclass Africa',
+    des: "Africa's version of Masterclass, built with a microservices architecture. Masterclass Africa empowers users to learn from the best in their fields while allowing experts to share their knowledge and create courses.",
+    img: '/masterclass-africa.jpg',
     iconLists: [
       '/next.svg',
       '/tail.svg',
