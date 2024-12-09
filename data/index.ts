@@ -51,7 +51,7 @@ export const gridItems = [
   {
     id: 5,
     title:
-      'Currently building Masterclass Africa (Node.js Microservices, Next.js)',
+      'Currently building Freelance Marketplace with my brother using (Node.js Microservices, Next.js)',
     description: 'The Inside Scoop',
     className: 'md:col-span-3 md:row-span-2',
     imgClassName: 'absolute right-0 bottom-0 md:w-96 w-60',
@@ -74,9 +74,9 @@ export const gridItems = [
 export const projects = [
   {
     id: 1,
-    title: 'Masterclass Africa',
-    des: "Africa's version of Masterclass, built with a microservices architecture. Masterclass Africa empowers users to learn from the best in their fields while allowing experts to share their knowledge and create courses.",
-    img: '/masterclass-africa.png',
+    title: 'Elevatex',
+    des: 'ElevateX, an African version of Airbnb, allows users to rent apartments and eliminate intermediaries.',
+    img: '/elevatex/homepage.jpeg',
     iconLists: [
       '/next.svg',
       '/tail.svg',
@@ -85,7 +85,7 @@ export const projects = [
       '/git.svg',
       '/node.svg',
     ],
-    link: '',
+    link: 'https://github.com/MouhsineNejmi/elevate-x',
   },
 ];
 
